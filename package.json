@@ -1,0 +1,37 @@
+{
+  "name": "valkyrie",
+  "version": "0.0.1",
+  "description": "Valkyrie selfbot ",
+  "main": "valkyrie.js",
+  "scripts": {
+    "start": "node valkyrie.js"
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "axios": "^0.21.0",
+    "colors": "^1.4.0",
+    "console-title": "^1.1.0",
+    "cpu-stat": "^2.0.1",
+    "discord": "^0.8.2",
+    "discord.js": "^11.6.4",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.10.13",
+    "password-hash": "^1.2.2",
+    "pm2": "^4.5.0",
+    "string-format": "^2.0.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
