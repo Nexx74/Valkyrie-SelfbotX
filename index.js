@@ -1,6 +1,5 @@
 
 let YOUR_TOKEN = 'YOUR_TOKEN_HERE'
-var prefix = "/"
 var mathprefix = "m/"
 /*
 ⚠ All selfbots (and any other 3rd-party clients or client modifications) break Discord's Terms of Service. Using a selfbot or any client mods puts your account at risk for deletion. Please do not use a selfbot nor any client modifications.
@@ -13,7 +12,10 @@ var mathprefix = "m/"
 This project is no longer supported for the reasons detailed above.
 
 USE AT YOUR OWN RISK!
-DONT CHNAGE PREFIX SOME COMMANDS MAY NOT WORK YOU CAN CHANGE MATHPREFIX!!
+DONT CHNAGE PREFIX SOME COMMANDS MAY NOT WORK 
+
+YOU CAN CHANGE MATHPREFIX!!
+
 ENJOY!
 PLACE YOUR TOKEN INSIDE '' ON THE FIRST LINE AND RUN!!!
 */
@@ -36,6 +38,7 @@ var snekfetch = require("snekfetch");
 const fetch = require('node-fetch')
 const got = require('got');
 var token = "token ici"
+nvar prefix = "/"
 var cheerio = require("cheerio"); /* Used to extract html content, based on jQuery || install with npm install cheerio */
 var request = require("request"); /* Used to make requests to URLs and fetch response  || install with npm install request */
 client.on('ready', function() {
