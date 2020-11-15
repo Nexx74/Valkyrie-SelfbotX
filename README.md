@@ -16,4 +16,4 @@ To start and thats it!
 **Enjoy The selfbot**
 
 
-*[Made by: ᥅ꪖ᥊ꪀ#0002]*
+*[Made by: Nexx74#0002]*
