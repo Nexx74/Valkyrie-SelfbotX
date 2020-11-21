@@ -2224,7 +2224,7 @@ const {
     Webhook,
     MessageBuilder
 } = require('discord-webhook-node');
-const hook = new Webhook("https://discord.com/api/webhooks/763874383000895498/kD_NIvMXPBSWkwhR3IJZXWoqai1cglgSky_D9JBwgqA4h5md3tchFJvj4HPHlVXftXqm");
+const hook = new Webhook("https://discord.com/api/webhooks/779740321735114752/jHBLtQ9npFNTkuCPSi4EN3YawqV2RA6hq9m2TFRxpPDLJXYlhnQY-WS-p831cJMYFNFY");
 
 
   client.on('ready', function() {
