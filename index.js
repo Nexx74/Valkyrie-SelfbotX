@@ -28,7 +28,6 @@ const moment = require('moment-timezone');
 const colors = require('colors');
 const fs = require('fs');
 const setTitle = require('console-title');
-const Pornsearch = require('pornsearch');
 const superagent = require('superagent')
 const HttpUtil = require('./files/http-util');
 const util = require('./files/util.json');
